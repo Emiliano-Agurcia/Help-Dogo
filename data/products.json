@@ -1,0 +1,14 @@
+{
+  "fields": [
+    {"name": "productCode", "type": "char", "length": 13},
+    {"name": "productName", "type": "char", "length": 60},
+    {"name": "productLine", "type": "char", "length": 15},
+    {"name": "productScale", "type": "char", "length": 5},
+    {"name": "productVendor", "type": "char", "length": 30},
+    {"name": "quantityInStock", "type": "int", "length": 4},
+    {"name": "buyPrice", "type": "float", "length": 4},
+    {"name": "MSRP", "type": "float", "length": 4}
+  ],
+  "primary-key": "productCode",
+  "secondary-key": ["productLine", "productScale"]
+}

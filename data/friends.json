@@ -1,0 +1,11 @@
+{
+  "fields": [
+    {"name": "id", "type": "int", "length": 4},
+    {"name": "name", "type": "char", "length": 20},
+    {"name": "age", "type": "int", "length": 4},
+    {"name": "sex", "type": "char", "length": 1},
+    {"name": "city", "type": "char", "length": 20}
+  ],
+  "primary-key": "id",
+  "secondary-key": ["sex", "city"]
+}
